@@ -45,6 +45,7 @@
     <DocumentationFile>bin\Release\GW2NET.V1.Guilds.Tests.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GuildTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +59,10 @@
     <ProjectReference Include="..\GW2NET.V1.Guilds\GW2NET.V1.Guilds.csproj">
       <Project>{48dbec9e-c97b-412e-ad3a-03658f76cdfc}</Project>
       <Name>GW2NET.V1.Guilds</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GW2NET\GW2NET.csproj">
+      <Project>{48C94F34-B6BD-4BDD-A0D5-36403A86FB78}</Project>
+      <Name>GW2NET</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -101,4 +106,3 @@
   </Target>
   -->
 </Project>
-
