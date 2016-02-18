@@ -42,9 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converters\ObjectiveNameConverter.cs" />
+    <Compile Include="Json\ObjectiveV2DTO.cs" />
     <Compile Include="Json\ObjectiveNameDTO.cs" />
     <Compile Include="ObjectiveNameRequest.cs" />
     <Compile Include="ObjectiveNameRepository.cs" />
+    <Compile Include="ObjectiveV2DetailsRequest.cs" />
+    <Compile Include="ObjectiveV2Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
