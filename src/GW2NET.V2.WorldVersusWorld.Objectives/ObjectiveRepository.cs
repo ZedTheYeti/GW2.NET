@@ -17,97 +17,107 @@ namespace GW2NET.V2.WorldVersusWorld.Objectives
     using GW2NET.Common;
     using GW2NET.WorldVersusWorld;
 
-    public class ObjectiveRepository : IObjectiveV2Repository
+    public class ObjectiveRepository : IObjectiveRepository
     {
-        /// <inheritdoc />
-        CultureInfo ILocalizable.Culture { get; set; }
+        public CultureInfo Culture
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
 
-        ICollection<int> IDiscoverable<int>.Discover()
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public ICollection<int> Discover()
         {
             throw new NotImplementedException();
         }
 
-        Task<ICollection<int>> IDiscoverable<int>.DiscoverAsync()
+        public Task<ICollection<int>> DiscoverAsync()
         {
             throw new NotImplementedException();
         }
 
-        Task<ICollection<int>> IDiscoverable<int>.DiscoverAsync(CancellationToken cancellationToken)
+        public Task<ICollection<int>> DiscoverAsync(CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
 
-        ObjectiveV2 IRepository<int, ObjectiveV2>.Find(int identifier)
+        public Objective Find(int identifier)
         {
             throw new NotImplementedException();
         }
 
-        IDictionaryRange<int, ObjectiveV2> IRepository<int, ObjectiveV2>.FindAll()
+        public IDictionaryRange<int, Objective> FindAll()
         {
             throw new NotImplementedException();
         }
 
-        IDictionaryRange<int, ObjectiveV2> IRepository<int, ObjectiveV2>.FindAll(ICollection<int> identifiers)
+        public IDictionaryRange<int, Objective> FindAll(ICollection<int> identifiers)
         {
             throw new NotImplementedException();
         }
 
-        Task<IDictionaryRange<int, ObjectiveV2>> IRepository<int, ObjectiveV2>.FindAllAsync()
+        public Task<IDictionaryRange<int, Objective>> FindAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        Task<IDictionaryRange<int, ObjectiveV2>> IRepository<int, ObjectiveV2>.FindAllAsync(ICollection<int> identifiers)
+        public Task<IDictionaryRange<int, Objective>> FindAllAsync(ICollection<int> identifiers)
         {
             throw new NotImplementedException();
         }
 
-        Task<IDictionaryRange<int, ObjectiveV2>> IRepository<int, ObjectiveV2>.FindAllAsync(CancellationToken cancellationToken)
+        public Task<IDictionaryRange<int, Objective>> FindAllAsync(CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
 
-        Task<IDictionaryRange<int, ObjectiveV2>> IRepository<int, ObjectiveV2>.FindAllAsync(ICollection<int> identifiers, CancellationToken cancellationToken)
+        public Task<IDictionaryRange<int, Objective>> FindAllAsync(ICollection<int> identifiers, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
 
-        Task<ObjectiveV2> IRepository<int, ObjectiveV2>.FindAsync(int identifier)
+        public Task<Objective> FindAsync(int identifier)
         {
             throw new NotImplementedException();
         }
 
-        Task<ObjectiveV2> IRepository<int, ObjectiveV2>.FindAsync(int identifier, CancellationToken cancellationToken)
+        public Task<Objective> FindAsync(int identifier, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
 
-        ICollectionPage<ObjectiveV2> IPaginator<ObjectiveV2>.FindPage(int pageIndex)
+        public ICollectionPage<Objective> FindPage(int pageIndex)
         {
             throw new NotImplementedException();
         }
 
-        ICollectionPage<ObjectiveV2> IPaginator<ObjectiveV2>.FindPage(int pageIndex, int pageSize)
+        public ICollectionPage<Objective> FindPage(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();
         }
 
-        Task<ICollectionPage<ObjectiveV2>> IPaginator<ObjectiveV2>.FindPageAsync(int pageIndex)
+        public Task<ICollectionPage<Objective>> FindPageAsync(int pageIndex)
         {
             throw new NotImplementedException();
         }
 
-        Task<ICollectionPage<ObjectiveV2>> IPaginator<ObjectiveV2>.FindPageAsync(int pageIndex, int pageSize)
+        public Task<ICollectionPage<Objective>> FindPageAsync(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();
         }
 
-        Task<ICollectionPage<ObjectiveV2>> IPaginator<ObjectiveV2>.FindPageAsync(int pageIndex, CancellationToken cancellationToken)
+        public Task<ICollectionPage<Objective>> FindPageAsync(int pageIndex, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
 
-        Task<ICollectionPage<ObjectiveV2>> IPaginator<ObjectiveV2>.FindPageAsync(int pageIndex, int pageSize, CancellationToken cancellationToken)
+        public Task<ICollectionPage<Objective>> FindPageAsync(int pageIndex, int pageSize, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
