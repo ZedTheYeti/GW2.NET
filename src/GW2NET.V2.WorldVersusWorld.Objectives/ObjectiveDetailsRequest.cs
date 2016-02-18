@@ -12,7 +12,7 @@ using GW2NET.Common;
 
 namespace GW2NET.V2.WorldVersusWorld.Objectives
 {
-    public sealed class ObjectiveV2DetailsRequest : DetailsRequest, ILocalizable
+    public sealed class ObjectiveDetailsRequest : DetailsRequest, ILocalizable
     {
         /// <summary>Gets or sets the locale.</summary>
         public CultureInfo Culture { get; set; }

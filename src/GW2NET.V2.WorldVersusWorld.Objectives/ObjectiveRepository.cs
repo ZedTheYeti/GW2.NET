@@ -17,7 +17,7 @@ namespace GW2NET.V2.WorldVersusWorld.Objectives
     using GW2NET.Common;
     using GW2NET.WorldVersusWorld;
 
-    public class ObjectiveV2Repository : IObjectiveV2Repository
+    public class ObjectiveRepository : IObjectiveV2Repository
     {
         /// <inheritdoc />
         CultureInfo ILocalizable.Culture { get; set; }

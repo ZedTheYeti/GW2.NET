@@ -14,7 +14,7 @@ namespace GW2NET.V2.WorldVersusWorld.Objectives.Json
 
     [DataContract]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1600:ElementsMustBeDocumented", Justification = "http://wiki.guildwars2.com/wiki/API:2/wvw/objectives")]
-    public sealed class ObjectiveV2DTO
+    public sealed class ObjectiveDTO
     {
         [DataMember(Name = "id", Order = 0)]
         public string Id { get; set; }
