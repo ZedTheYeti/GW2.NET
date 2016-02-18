@@ -138,6 +138,7 @@
     <Compile Include="Factories\Services\ConsumableConverterFactory.cs" />
     <Compile Include="Factories\Services\ContainerConverterFactory.cs" />
     <Compile Include="Factories\Services\ContinentRepositoryFactory.cs" />
+    <Compile Include="Factories\Services\ObjectiveRepositoryFactory.cs" />
     <Compile Include="Factories\Services\Services.cs" />
     <Compile Include="Factories\Services\AuthorizedServices.cs" />
     <Compile Include="Factories\Services\FactoryForV2Commerce.cs" />

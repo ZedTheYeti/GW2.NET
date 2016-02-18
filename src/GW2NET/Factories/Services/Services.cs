@@ -152,11 +152,11 @@ namespace GW2NET.Factories.V2
         }
 
         /// <summary>Gets access to world versus world data sources.</summary>
-        public FactoryForV2WvW WorldVersusWorld
+        public ObjectiveRepositoryFactory Objectives
         {
             get
             {
-                return new FactoryForV2WvW(this.ServiceClient);
+                return new ObjectiveRepositoryFactory(this.ServiceClient);
             }
         }
     }

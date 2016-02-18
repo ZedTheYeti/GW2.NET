@@ -10,7 +10,7 @@ namespace GW2NET.WorldVersusWorld
 {
     using GW2NET.Common;
 
-    public interface IObjectiveV2Repository : IRepository<int, ObjectiveV2>, ILocalizable
+    public interface IObjectiveRepository : IRepository<int, Objective>, ILocalizable
     {
     }
 }
